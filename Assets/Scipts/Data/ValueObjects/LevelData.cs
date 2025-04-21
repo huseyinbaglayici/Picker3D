@@ -6,6 +6,6 @@ namespace Scipts.Data.ValueObjects
     [Serializable]
     public struct LevelData
     {
-        public List<PoolData> PoolDatas;
+        public List<PoolData> Pools;
     }
 }

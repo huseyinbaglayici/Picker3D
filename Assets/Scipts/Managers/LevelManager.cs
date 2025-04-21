@@ -1,4 +1,5 @@
-﻿using Scipts.Commands.Level;
+﻿using System;
+using Scipts.Commands.Level;
 using Scipts.Data.UnityObjects;
 using Scipts.Data.ValueObjects;
 using Scipts.Signals;
@@ -97,7 +98,7 @@ namespace Scipts.Managers
         }
 
 
-        private void OnDestroy() => UnSubscribeEvent();
+        private void OnDisable() => UnSubscribeEvent();
 
         private void Start()
         {
