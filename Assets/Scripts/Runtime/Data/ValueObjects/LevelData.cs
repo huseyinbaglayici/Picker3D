@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Scripts.Data.ValueObjects
+namespace Runtime.Data.ValueObjects
 {
     [Serializable]
     public struct LevelData

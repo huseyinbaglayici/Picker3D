@@ -1,4 +1,4 @@
-﻿namespace Scripts.Enums
+﻿namespace Runtime.Enums
 {
     public enum UIPanelTypes
     {

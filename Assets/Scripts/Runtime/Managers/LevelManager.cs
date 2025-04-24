@@ -1,11 +1,11 @@
 ﻿using System;
-using Scripts.Commands.Level;
-using Scripts.Data.UnityObjects;
-using Scripts.Data.ValueObjects;
-using Scripts.Signals;
+using Runtime.Commands.Level;
+using Runtime.Data.UnityObjects;
+using Runtime.Data.ValueObjects;
+using Runtime.Signals;
 using UnityEngine;
 
-namespace Scripts.Managers
+namespace Runtime.Managers
 {
     public class LevelManager : MonoBehaviour
     {
