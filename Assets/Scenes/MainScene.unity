@@ -431,7 +431,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1548246614}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &752488052
@@ -470,14 +471,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53555632c2994a31bea0e22a3332aa7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &1548246614 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4754785235952351929, guid: edf44aa5d8c033c4b8a179fe5f008b89,
+    type: 3}
+  m_PrefabInstance: {fileID: 1850422341232202}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1850422341232202
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 752488051}
     m_Modifications:
+    - target: {fileID: 2003821735679997635, guid: edf44aa5d8c033c4b8a179fe5f008b89,
+        type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 4754785235952351929, guid: edf44aa5d8c033c4b8a179fe5f008b89,
         type: 3}
       propertyPath: m_Pivot.x
@@ -595,5 +607,4 @@ SceneRoots:
   - {fileID: 375569835}
   - {fileID: 743498739}
   - {fileID: 752488051}
-  - {fileID: 1850422341232202}
   - {fileID: 263710098}

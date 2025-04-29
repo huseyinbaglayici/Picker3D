@@ -1,6 +1,7 @@
 ﻿using System;
 using Runtime.Enums;
 using Runtime.Managers;
+using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,7 +20,7 @@ namespace Runtime.Keys
 
         #region Private Variables
 
-        private UIManager _manager;
+        [ShowInInspector] private UIManager _manager;
 
         #endregion
 

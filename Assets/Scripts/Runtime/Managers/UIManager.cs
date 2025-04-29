@@ -22,7 +22,7 @@ namespace Runtime.Managers
 
         private void OnLevelFailed()
         {
-            CoreUISignals.Instance.onOpenPanel?.Invoke(UIPanelTypes.Lose, 2);
+            CoreUISignals.Instance.onOpenPanel?.Invoke(UIPanelTypes.Fail, 2);
         }
 
         private void OnLevelSuccessful()

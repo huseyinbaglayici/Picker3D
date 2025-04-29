@@ -5,6 +5,6 @@
         Start,
         Level,
         Win,
-        Lose
+        Fail
     }
 }
