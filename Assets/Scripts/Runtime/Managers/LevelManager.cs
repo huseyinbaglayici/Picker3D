@@ -60,7 +60,7 @@ namespace Runtime.Managers
 
         private void SubscribeEvent()
         {
-            CoreGameSignals.Instance.onLevelInitialized += _levelLoaderCommand.Execute;
+            CoreGameSignals.Instance.onLevelInitialize += _levelLoaderCommand.Execute;
             CoreGameSignals.Instance.onClearActiveLevel += _levelDestroyerCommand.Execute;
             CoreGameSignals.Instance.onGetLevelValue += OnGetLevelValue;
             CoreGameSignals.Instance.onNextLevel += OnNextLevel;
@@ -78,20 +78,20 @@ namespace Runtime.Managers
             _currentLevel++;
             CoreGameSignals.Instance.onClearActiveLevel?.Invoke();
             CoreGameSignals.Instance.onReset?.Invoke();
-            CoreGameSignals.Instance.onLevelInitialized?.Invoke((byte)(_currentLevel % totalLevelCount));
+            CoreGameSignals.Instance.onLevelInitialize?.Invoke((byte)(_currentLevel % totalLevelCount));
         }
 
         private void OnRestartLevel()
         {
             CoreGameSignals.Instance.onClearActiveLevel?.Invoke();
             CoreGameSignals.Instance.onReset?.Invoke();
-            CoreGameSignals.Instance.onLevelInitialized?.Invoke((byte)(_currentLevel % totalLevelCount));
+            CoreGameSignals.Instance.onLevelInitialize?.Invoke((byte)(_currentLevel % totalLevelCount));
         }
 
 
         private void UnSubscribeEvent()
         {
-            CoreGameSignals.Instance.onLevelInitialized -= _levelLoaderCommand.Execute;
+            CoreGameSignals.Instance.onLevelInitialize -= _levelLoaderCommand.Execute;
             CoreGameSignals.Instance.onClearActiveLevel -= _levelDestroyerCommand.Execute;
             CoreGameSignals.Instance.onGetLevelValue -= OnGetLevelValue;
             CoreGameSignals.Instance.onNextLevel -= OnNextLevel;
@@ -103,8 +103,8 @@ namespace Runtime.Managers
 
         private void Start()
         {
-            CoreGameSignals.Instance.onLevelInitialized?.Invoke((byte)(_currentLevel % totalLevelCount));
-            CoreUISignals.Instance.onOpenPanel?.Invoke(UIPanelTypes.Start, 1); 
+            CoreGameSignals.Instance.onLevelInitialize?.Invoke((byte)(_currentLevel % totalLevelCount));
+            CoreUISignals.Instance.onOpenPanel?.Invoke(UIPanelTypes.Start, 1);
         }
     }
 }
