@@ -125,6 +125,7 @@ namespace Runtime.Managers
                             HorizontalValue = _moveVector.x,
                             ClampValues = _data.ClampValues
                         });
+                        Debug.LogWarning("Executed ---> OnInputDragged");
                     }
                 }
             }
