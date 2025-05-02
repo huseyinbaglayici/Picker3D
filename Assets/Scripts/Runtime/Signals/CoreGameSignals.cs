@@ -18,7 +18,6 @@ namespace Runtime.Signals
                 Destroy(gameObject);
                 return;
             }
-
             Instance = this;
         }
 
