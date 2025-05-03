@@ -50,8 +50,8 @@ namespace Runtime.Managers
         
         private void SendDataToControllers()
         {
-            // _movementController.SetData(_data.MovementData);
-            // _meshController.SetData(_data.MeshData);
+            _movementController.SetData(_data.MovementData);
+            _meshController.SetData(_data.MeshData);
         }
 
         private void Init()

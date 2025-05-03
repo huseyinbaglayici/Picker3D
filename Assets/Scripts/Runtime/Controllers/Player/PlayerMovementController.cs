@@ -14,8 +14,6 @@ namespace Runtime.Controllers.Player
         #region Serialized Variables
 
         [SerializeField] private new Rigidbody rigidbody;
-        [SerializeField] private new Collider collider;
-
         #endregion
 
         #region Private Variables
