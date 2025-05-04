@@ -1,5 +1,4 @@
-﻿using System;
-using Runtime.Data.ValueObjects;
+﻿using Runtime.Data.ValueObjects;
 using Runtime.Keys;
 using Sirenix.OdinInspector;
 using Unity.Mathematics;
@@ -64,6 +63,7 @@ namespace Runtime.Controllers.Player
 
         private void MovePlayer()
         {
+            Debug.Log(rigidbody.velocity);
             var velocity = rigidbody.velocity;
             velocity = new Vector3(_xValue * _data.SidewaySpeed, velocity.y, _data.ForwardSpeed);
             rigidbody.velocity = velocity;

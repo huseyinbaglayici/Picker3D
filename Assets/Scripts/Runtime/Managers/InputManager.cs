@@ -86,12 +86,10 @@ namespace Runtime.Managers
             {
                 _isTouching = true;
                 InputSignals.Instance.onInputTaken?.Invoke();
-                Debug.LogWarning("Executed ---> OnInputTaken");
                 if (!_isFirstTimeTouchTaken)
                 {
                     _isFirstTimeTouchTaken = true;
                     InputSignals.Instance.onFirstTouchTaken?.Invoke();
-                    Debug.LogWarning("Executed ---> OnFirstTouchTaken");
                 }
 
                 _mousePosition = Input.mousePosition;
@@ -126,7 +124,6 @@ namespace Runtime.Managers
                             HorizontalValue = _moveVector.x,
                             ClampValues = _data.ClampValues
                         });
-                        Debug.LogWarning("Executed ---> OnInputDragged");
                     }
                 }
             }

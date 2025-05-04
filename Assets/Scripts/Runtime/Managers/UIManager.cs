@@ -57,7 +57,6 @@ namespace Runtime.Managers
 
         public void Play()
         {
-            Debug.LogWarning("Executed ---> Play");
             UISignals.Instance.onPlay?.Invoke();
             CoreUISignals.Instance.onClosePanel?.Invoke(1);
             InputSignals.Instance.onEnableInput?.Invoke();
