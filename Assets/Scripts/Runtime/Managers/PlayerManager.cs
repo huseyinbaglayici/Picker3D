@@ -42,12 +42,12 @@ namespace Runtime.Managers
             SendDataToControllers();
             Init();
         }
-        
+
         private PlayerData GetPlayerData()
         {
             return Resources.Load<CD_Player>("Data/CD_Player").Data;
         }
-        
+
         private void SendDataToControllers()
         {
             _movementController.SetData(_data.MovementData);

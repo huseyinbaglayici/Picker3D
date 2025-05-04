@@ -15,7 +15,6 @@ namespace Runtime.Managers
 
         #region Private Variables
 
-
         private InputData _data;
         private bool _isAvaibleForTouch, _isFirstTimeTouchTaken, _isTouching;
 
@@ -115,6 +114,7 @@ namespace Runtime.Managers
                             _moveVector.x = Mathf.SmoothDamp(-_moveVector.x, 0f,
                                 ref _currentVelocity, _data.ClampSpeed);
                         }
+
                         _moveVector.x = mouseDeltaPos.x;
 
                         _mousePosition = Input.mousePosition;
