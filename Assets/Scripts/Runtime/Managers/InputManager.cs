@@ -106,7 +106,7 @@ namespace Runtime.Managers
                         Vector2 mouseDeltaPos = (Vector2)Input.mousePosition - _mousePosition.Value;
                         if (mouseDeltaPos.x > _data.HorizontalInputSpeed)
                         {
-                            _moveVector.x = _data.HorizontalInputSpeed / 10 * mouseDeltaPos.x;
+                            _moveVector.x = _data.HorizontalInputSpeed / 10f * mouseDeltaPos.x;
                         }
                         else if (mouseDeltaPos.x < _data.HorizontalInputSpeed)
                         {
