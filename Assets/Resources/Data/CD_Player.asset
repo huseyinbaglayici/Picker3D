@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Data:
     MovementData:
-      ForwardSpeed: 5
+      ForwardSpeed: 4
       SidewaySpeed: 2.2
     MeshData:
       ScaleCounter: 1.2
