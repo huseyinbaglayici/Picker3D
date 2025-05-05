@@ -1,4 +1,4 @@
-﻿using DG.Tweening;
+﻿﻿using DG.Tweening;
 using Runtime.Controllers.Pool;
 using Runtime.Managers;
 using Runtime.Signals;
@@ -30,15 +30,15 @@ namespace Runtime.Controllers.Player
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag(_finish))
+            if (other.CompareTag(_stageArea))
             {
                 manager.ForceCommand.Execute();
                 CoreGameSignals.Instance.onStageAreaEntered?.Invoke();
                 InputSignals.Instance.onDisableInput?.Invoke();
 
-                DOVirtual.DelayedCall(3f, () =>
+                DOVirtual.DelayedCall(3, () =>
                 {
-                    var result = other.transform.GetComponentInChildren<PoolController>()
+                    var result = other.transform.parent.GetComponentInChildren<PoolController>()
                         .TakeResults(manager.StageValue);
 
                     if (result)
@@ -46,7 +46,10 @@ namespace Runtime.Controllers.Player
                         CoreGameSignals.Instance.onStageAreaSuccessful?.Invoke(manager.StageValue);
                         InputSignals.Instance.onEnableInput?.Invoke();
                     }
-                    else CoreGameSignals.Instance.onLevelFailed?.Invoke();
+                    else
+                    {
+                        CoreGameSignals.Instance.onLevelFailed?.Invoke();
+                    }
                 });
                 return;
             }
@@ -55,13 +58,12 @@ namespace Runtime.Controllers.Player
             {
                 CoreGameSignals.Instance.onFinishAreaEntered?.Invoke();
                 InputSignals.Instance.onDisableInput?.Invoke();
-                CoreGameSignals.Instance.onLevelSuccessful?.Invoke();
                 return;
             }
 
             if (other.CompareTag(_miniGame))
             {
-                // Write the Minigame Mechanics
+                //Write the MiniGame Mechanics
             }
         }
 
@@ -71,9 +73,8 @@ namespace Runtime.Controllers.Player
             var transform1 = manager.transform;
             var position1 = transform1.position;
 
-            Gizmos.DrawSphere(new Vector3(position1.x, position1.y - 1, position1.z + 0.9f), 1.7f);
+            Gizmos.DrawSphere(new Vector3(position1.x, position1.y - 1f, position1.z + .9f), 1.7f);
         }
-
 
         public void OnReset()
         {

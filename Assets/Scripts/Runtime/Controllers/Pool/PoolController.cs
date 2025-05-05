@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿﻿using System.Collections.Generic;
 using DG.Tweening;
 using Runtime.Data.UnityObjects;
 using Runtime.Data.ValueObjects;
 using Runtime.Signals;
 using Sirenix.OdinInspector;
 using TMPro;
+using Unity.Mathematics;
 using UnityEngine;
 
 namespace Runtime.Controllers.Pool
@@ -20,6 +20,7 @@ namespace Runtime.Controllers.Pool
         [SerializeField] private TextMeshPro poolText;
         [SerializeField] private byte stageID;
         [SerializeField] private new Renderer renderer;
+        [SerializeField] private float3 poolAfterColor = new float3(0.1607843f, 0.3144797f, 0.6039216f);
 
         #endregion
 
@@ -53,9 +54,8 @@ namespace Runtime.Controllers.Pool
         private void SubscribeEvents()
         {
             CoreGameSignals.Instance.onStageAreaSuccessful += OnActivateTweens;
-            CoreGameSignals.Instance.onStageAreaSuccessful += OnChangedPoolColor;
+            CoreGameSignals.Instance.onStageAreaSuccessful += OnChangePoolColor;
         }
-
 
         private void OnActivateTweens(byte stageValue)
         {
@@ -66,10 +66,12 @@ namespace Runtime.Controllers.Pool
             }
         }
 
-        private void OnChangedPoolColor(byte stageValue)
+        private void OnChangePoolColor(byte stageValue)
         {
             if (stageValue != stageID) return;
-            renderer.material.DOColor(new Color(0.1607842f, 0.6039216f, 0.1766218f), 1f).SetEase(Ease.Linear);
+            renderer.material.DOColor(new Color(poolAfterColor.x, poolAfterColor.y, poolAfterColor.z, 1), .5f)
+                .SetEase(Ease.Flash)
+                .SetRelative(false);
         }
 
         private void Start()
@@ -109,6 +111,11 @@ namespace Runtime.Controllers.Pool
             poolText.text = $"{_collectedCount}/{_data.RequiredObjectCount}";
         }
 
+        private void DecreaseCollectedAmount()
+        {
+            _collectedCount--;
+        }
+
         private void OnTriggerExit(Collider other)
         {
             if (!other.CompareTag(_collectable)) return;
@@ -116,9 +123,15 @@ namespace Runtime.Controllers.Pool
             SetCollectedAmountToPool();
         }
 
-        private void DecreaseCollectedAmount()
+        private void UnSubscribeEvents()
         {
-            _collectedCount--;
+            CoreGameSignals.Instance.onStageAreaSuccessful -= OnActivateTweens;
+            CoreGameSignals.Instance.onStageAreaSuccessful -= OnChangePoolColor;
+        }
+
+        private void OnDisable()
+        {
+            UnSubscribeEvents();
         }
     }
 }

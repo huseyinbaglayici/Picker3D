@@ -1,4 +1,4 @@
-﻿using Runtime.Data.ValueObjects;
+﻿﻿using Runtime.Data.ValueObjects;
 using Runtime.Keys;
 using Sirenix.OdinInspector;
 using Unity.Mathematics;
@@ -13,6 +13,7 @@ namespace Runtime.Controllers.Player
         #region Serialized Variables
 
         [SerializeField] private new Rigidbody rigidbody;
+
         #endregion
 
         #region Private Variables
@@ -34,7 +35,7 @@ namespace Runtime.Controllers.Player
 
         private void FixedUpdate()
         {
-            if (!_isReadyToMove)
+            if (!_isReadyToPlay)
             {
                 StopPlayer();
                 return;
@@ -58,12 +59,12 @@ namespace Runtime.Controllers.Player
 
         private void StopPlayerHorizontally()
         {
-            rigidbody.velocity = new Vector3(0, rigidbody.velocity.y, 0);
+            rigidbody.velocity = new Vector3(0, rigidbody.velocity.y, _data.ForwardSpeed);
+            rigidbody.angularVelocity = Vector3.zero;
         }
 
         private void MovePlayer()
         {
-            Debug.Log(rigidbody.velocity);
             var velocity = rigidbody.velocity;
             velocity = new Vector3(_xValue * _data.SidewaySpeed, velocity.y, _data.ForwardSpeed);
             rigidbody.velocity = velocity;

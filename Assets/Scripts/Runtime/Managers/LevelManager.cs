@@ -1,9 +1,9 @@
-﻿using System;
-using Runtime.Commands.Level;
+﻿using Runtime.Commands.Level;
 using Runtime.Data.UnityObjects;
 using Runtime.Data.ValueObjects;
 using Runtime.Enums;
 using Runtime.Signals;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace Runtime.Managers
@@ -19,7 +19,7 @@ namespace Runtime.Managers
 
         #endregion
 
-        #region Private Variable
+        #region Private Variables
 
         private OnLevelLoaderCommand _levelLoaderCommand;
         private OnLevelDestroyerCommand _levelDestroyerCommand;
@@ -55,10 +55,12 @@ namespace Runtime.Managers
             return (byte)_currentLevel;
         }
 
-        private void OnEnable() => SubscribeEvent();
+        private void OnEnable()
+        {
+            SubscribeEvents();
+        }
 
-
-        private void SubscribeEvent()
+        private void SubscribeEvents()
         {
             CoreGameSignals.Instance.onLevelInitialize += _levelLoaderCommand.Execute;
             CoreGameSignals.Instance.onClearActiveLevel += _levelDestroyerCommand.Execute;
@@ -67,12 +69,7 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.onRestartLevel += OnRestartLevel;
         }
 
-        private byte OnGetLevelValue()
-        {
-            return (byte)_currentLevel;
-        }
-
-
+        [Button]
         private void OnNextLevel()
         {
             _currentLevel++;
@@ -81,6 +78,7 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.onLevelInitialize?.Invoke((byte)(_currentLevel % totalLevelCount));
         }
 
+        [Button]
         private void OnRestartLevel()
         {
             CoreGameSignals.Instance.onClearActiveLevel?.Invoke();
@@ -88,8 +86,12 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.onLevelInitialize?.Invoke((byte)(_currentLevel % totalLevelCount));
         }
 
+        private byte OnGetLevelValue()
+        {
+            return (byte)((byte)_currentLevel % totalLevelCount);
+        }
 
-        private void UnSubscribeEvent()
+        private void UnSubscribeEvents()
         {
             CoreGameSignals.Instance.onLevelInitialize -= _levelLoaderCommand.Execute;
             CoreGameSignals.Instance.onClearActiveLevel -= _levelDestroyerCommand.Execute;
@@ -98,8 +100,10 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.onRestartLevel -= OnRestartLevel;
         }
 
-
-        private void OnDisable() => UnSubscribeEvent();
+        private void OnDisable()
+        {
+            UnSubscribeEvents();
+        }
 
         private void Start()
         {
