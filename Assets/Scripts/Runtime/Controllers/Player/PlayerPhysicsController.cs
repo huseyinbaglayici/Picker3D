@@ -71,7 +71,7 @@ namespace Runtime.Controllers.Player
             var transform1 = manager.transform;
             var position1 = transform1.position;
 
-            Gizmos.DrawSphere(new Vector3(position1.x, position1.y + 1, position1.z + 1), 1.35f);
+            Gizmos.DrawSphere(new Vector3(position1.x, position1.y - 1, position1.z + 0.9f), 1.7f);
         }
 
 
