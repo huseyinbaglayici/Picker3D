@@ -86,6 +86,10 @@ namespace Runtime.Managers
         private void OnStageAreaSuccessful(byte value)
         {
             StageValue = (byte)++value;
+            _movementController.IsReadyToPlay(true);
+            _meshController.ScaleUpPlayer();
+            _meshController.PlayConfetti();
+            _meshController.ShowUpText();
         }
 
         private void OnFinishAreaEntered()
