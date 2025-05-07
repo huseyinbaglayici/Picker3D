@@ -14,6 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Levels:
   - Pools:
+    - RequiredObjectCount: 3
     - RequiredObjectCount: 5
     - RequiredObjectCount: 7
+  - Pools:
+    - RequiredObjectCount: 4
     - RequiredObjectCount: 10
+    - RequiredObjectCount: 12
+  - Pools:
+    - RequiredObjectCount: 7
+    - RequiredObjectCount: 12
+    - RequiredObjectCount: 14
+  - Pools:
+    - RequiredObjectCount: 10
+    - RequiredObjectCount: 12
+    - RequiredObjectCount: 13

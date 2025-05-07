@@ -28,10 +28,10 @@ namespace Runtime.Keys
 
         private void Awake()
         {
-            GetReferences();
+            FindReferences();
         }
 
-        private void GetReferences()
+        private void FindReferences()
         {
             _manager = FindObjectOfType<UIManager>();
         }
@@ -46,16 +46,21 @@ namespace Runtime.Keys
             switch (type)
             {
                 case UIEventSubscriptionTypes.OnPlay:
+                {
                     button.onClick.AddListener(_manager.Play);
                     break;
+                }
+
                 case UIEventSubscriptionTypes.OnNextLevel:
+                {
                     button.onClick.AddListener(_manager.NextLevel);
                     break;
+                }
                 case UIEventSubscriptionTypes.OnRestartLevel:
+                {
                     button.onClick.AddListener(_manager.RestartLevel);
                     break;
-                default:
-                    throw new ArgumentOutOfRangeException();
+                }
             }
         }
 
@@ -64,16 +69,20 @@ namespace Runtime.Keys
             switch (type)
             {
                 case UIEventSubscriptionTypes.OnPlay:
+                {
                     button.onClick.RemoveListener(_manager.Play);
                     break;
+                }
                 case UIEventSubscriptionTypes.OnNextLevel:
+                {
                     button.onClick.RemoveListener(_manager.NextLevel);
                     break;
+                }
                 case UIEventSubscriptionTypes.OnRestartLevel:
+                {
                     button.onClick.RemoveListener(_manager.RestartLevel);
                     break;
-                default:
-                    throw new ArgumentOutOfRangeException();
+                }
             }
         }
 
