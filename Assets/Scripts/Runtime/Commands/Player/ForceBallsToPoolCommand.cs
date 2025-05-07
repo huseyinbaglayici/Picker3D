@@ -32,7 +32,7 @@ namespace Runtime.Commands.Player
             {
                 if (col.GetComponent<Rigidbody>() == null) continue;
                 var rb = col.GetComponent<Rigidbody>();
-                rb.AddForce(new Vector3(0, _forceData.ForceParams.y, _forceData.ForceParams.z),
+                rb.AddForce(new Vector3(_forceData.ForceParams.x, _forceData.ForceParams.y, _forceData.ForceParams.z),
                     ForceMode.Impulse);
             }
 

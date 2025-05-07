@@ -20,7 +20,7 @@ namespace Runtime.Controllers.Pool
         [SerializeField] private TextMeshPro poolText;
         [SerializeField] private byte stageID;
         [SerializeField] private new Renderer renderer;
-        [SerializeField] private float3 poolAfterColor = new float3(0.1607843f, 0.3144797f, 0.6039216f);
+        [SerializeField] private float3 poolAfterColor;
 
         #endregion
 
