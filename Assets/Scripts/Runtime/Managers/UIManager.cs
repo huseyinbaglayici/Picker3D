@@ -77,9 +77,9 @@ namespace Runtime.Managers
 
         private void OnReset()
         {
-            CoreUISignals.Instance.onCloseAllPanels?.Invoke();
+            CoreUISignals.Instance.onClosePanel?.Invoke(2);
             CoreUISignals.Instance.onOpenPanel?.Invoke(UIPanelTypes.Start, 1);
-            CoreUISignals.Instance.onOpenPanel?.Invoke(UIPanelTypes.Level, 0);
+            // CoreUISignals.Instance.onOpenPanel?.Invoke(UIPanelTypes.Level, 0);
         }
     }
 }
