@@ -32,21 +32,21 @@ MonoBehaviour:
     - Assembly-CSharp-firstpass
     - sc.stylizedwater2.runtime
     - Cinemachine
-    - Assembly-CSharp
     - MK.Toon.Editor
+    - Assembly-CSharp
     - Boxophobic.Utils.Editor
     - PPv2URPConverters
     - Boxophobic.PolyverseSkies.Editor
     - Boxophobic.Utils.Scripts
-    - MK.RampCreator
-    - MK.Toon
     - sc.stylizedwater2.editor
-    - MK.Toon.URP.Editor
     - MK.MKTextureChannelPacker
-    - MK.MeshUtility
-    - Boxophobic.PolyverseSkies.Runtime
-    - Boxophobic.PolyverseSkies.Scripts
+    - MK.Toon
     - MK.Toon.URP
+    - Boxophobic.PolyverseSkies.Runtime
+    - MK.MeshUtility
+    - Boxophobic.PolyverseSkies.Scripts
+    - MK.Toon.URP.Editor
+    - MK.RampCreator
     - Sirenix.OdinInspector.Modules.UnityMathematics
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0

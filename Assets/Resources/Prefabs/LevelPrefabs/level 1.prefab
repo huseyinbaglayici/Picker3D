@@ -80,6 +80,21 @@ PrefabInstance:
       propertyPath: stageID
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 368272102970547535, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: poolAfterColor.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 368272102970547535, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: poolAfterColor.y
+      value: 0.7830188
+      objectReference: {fileID: 0}
+    - target: {fileID: 368272102970547535, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: poolAfterColor.z
+      value: 0.01973554
+      objectReference: {fileID: 0}
     - target: {fileID: 425718540743650556, guid: 29188ab157119a44b83e7e99ffe91b5a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -130,6 +145,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3245933234500714307, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea977866b5773bb408928d64933ab0ea, type: 2}
+    - target: {fileID: 3945702404341538761, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea977866b5773bb408928d64933ab0ea, type: 2}
     - target: {fileID: 6278082282271187277, guid: 29188ab157119a44b83e7e99ffe91b5a,
         type: 3}
       propertyPath: m_Name
@@ -140,6 +165,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9218195563346934010, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a2b2163798bfee469246408b333580d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -163,6 +193,21 @@ PrefabInstance:
         type: 3}
       propertyPath: stageID
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 368272102970547535, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: poolAfterColor.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 368272102970547535, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: poolAfterColor.y
+      value: 0.7830188
+      objectReference: {fileID: 0}
+    - target: {fileID: 368272102970547535, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: poolAfterColor.z
+      value: 0.01973554
       objectReference: {fileID: 0}
     - target: {fileID: 425718540743650556, guid: 29188ab157119a44b83e7e99ffe91b5a,
         type: 3}
@@ -214,11 +259,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3245933234500714307, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea977866b5773bb408928d64933ab0ea, type: 2}
+    - target: {fileID: 3945702404341538761, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea977866b5773bb408928d64933ab0ea, type: 2}
     - target: {fileID: 6278082282271187277, guid: 29188ab157119a44b83e7e99ffe91b5a,
         type: 3}
       propertyPath: m_Name
       value: Stage (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9218195563346934010, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a2b2163798bfee469246408b333580d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -317,6 +377,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6866511078342169816}
     m_Modifications:
+    - target: {fileID: 368272102970547535, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: poolAfterColor.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 368272102970547535, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: poolAfterColor.y
+      value: 0.7830188
+      objectReference: {fileID: 0}
+    - target: {fileID: 368272102970547535, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: poolAfterColor.z
+      value: 0.01973554
+      objectReference: {fileID: 0}
     - target: {fileID: 425718540743650556, guid: 29188ab157119a44b83e7e99ffe91b5a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -367,11 +442,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3245933234500714307, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea977866b5773bb408928d64933ab0ea, type: 2}
+    - target: {fileID: 3945702404341538761, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea977866b5773bb408928d64933ab0ea, type: 2}
     - target: {fileID: 6278082282271187277, guid: 29188ab157119a44b83e7e99ffe91b5a,
         type: 3}
       propertyPath: m_Name
       value: Stage
       objectReference: {fileID: 0}
+    - target: {fileID: 9218195563346934010, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a2b2163798bfee469246408b333580d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

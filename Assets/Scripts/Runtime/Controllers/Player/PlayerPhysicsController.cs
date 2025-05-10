@@ -78,6 +78,7 @@ namespace Runtime.Controllers.Player
 
         public void OnReset()
         {
+            
         }
     }
 }

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Data:
     HorizontalInputSpeed: 1.2
-    ClampValues: {x: -5.75, y: 5.75}
+    ClampValues: {x: -5.7, y: 5.7}
     ClampSpeed: 0.07
