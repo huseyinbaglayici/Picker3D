@@ -265,7 +265,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &250042169757355649
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,7 +930,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &744520824099852627
 GameObject:
   m_ObjectHideFlags: 0
@@ -1462,7 +1462,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &1198946944364434730
 GameObject:
   m_ObjectHideFlags: 0
@@ -1728,7 +1728,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &1335463181755373334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1861,7 +1861,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &1377984505591624026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1994,7 +1994,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &1426313554929170518
 GameObject:
   m_ObjectHideFlags: 0
@@ -2127,7 +2127,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &1470444941862722421
 GameObject:
   m_ObjectHideFlags: 0
@@ -2792,7 +2792,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &1940463964163558651
 GameObject:
   m_ObjectHideFlags: 0
@@ -3392,7 +3392,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &2542199400025262832
 GameObject:
   m_ObjectHideFlags: 0
@@ -3525,7 +3525,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &2558717216485429645
 GameObject:
   m_ObjectHideFlags: 0
@@ -3924,7 +3924,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &2694861530294942602
 GameObject:
   m_ObjectHideFlags: 0
@@ -4323,7 +4323,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &2932823254273055183
 GameObject:
   m_ObjectHideFlags: 0
@@ -4589,7 +4589,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &3310392296377160667
 GameObject:
   m_ObjectHideFlags: 0
@@ -4722,7 +4722,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &3434472504543550880
 GameObject:
   m_ObjectHideFlags: 0
@@ -4855,7 +4855,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &3536976091643380088
 GameObject:
   m_ObjectHideFlags: 0
@@ -5653,7 +5653,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &4459471298783006405
 GameObject:
   m_ObjectHideFlags: 0
@@ -6717,7 +6717,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &5237842468021928109
 GameObject:
   m_ObjectHideFlags: 0
@@ -6983,7 +6983,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &5319799821962208994
 GameObject:
   m_ObjectHideFlags: 0
@@ -7116,7 +7116,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &5355956414142245457
 GameObject:
   m_ObjectHideFlags: 0
@@ -7249,7 +7249,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &5423814564649014312
 GameObject:
   m_ObjectHideFlags: 0
@@ -7515,7 +7515,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &5498380693431366441
 GameObject:
   m_ObjectHideFlags: 0
@@ -7781,7 +7781,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &5643377575930410198
 GameObject:
   m_ObjectHideFlags: 0
@@ -8446,7 +8446,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &6092434157507743343
 GameObject:
   m_ObjectHideFlags: 0
@@ -8579,7 +8579,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &6103963890485191209
 GameObject:
   m_ObjectHideFlags: 0
@@ -8712,7 +8712,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &6154607631442386199
 GameObject:
   m_ObjectHideFlags: 0
@@ -8845,7 +8845,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &6427314221941332136
 GameObject:
   m_ObjectHideFlags: 0
@@ -9510,7 +9510,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &6937028944954716778
 GameObject:
   m_ObjectHideFlags: 0
@@ -10308,7 +10308,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &7094481855554365122
 GameObject:
   m_ObjectHideFlags: 0
@@ -10707,7 +10707,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &7358926471090051284
 GameObject:
   m_ObjectHideFlags: 0
@@ -10840,7 +10840,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &7412621425256465296
 GameObject:
   m_ObjectHideFlags: 0
@@ -10973,7 +10973,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &7419407225459195889
 GameObject:
   m_ObjectHideFlags: 0
@@ -11106,7 +11106,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &7440853639082959332
 GameObject:
   m_ObjectHideFlags: 0
@@ -12170,7 +12170,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &8179377877910073479
 GameObject:
   m_ObjectHideFlags: 0
@@ -12303,7 +12303,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &8218107853244737521
 GameObject:
   m_ObjectHideFlags: 0
@@ -12569,7 +12569,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &8375610612246478046
 GameObject:
   m_ObjectHideFlags: 0
@@ -12835,7 +12835,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &8534346181015537965
 GameObject:
   m_ObjectHideFlags: 0
@@ -12968,7 +12968,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &8581619735183148854
 GameObject:
   m_ObjectHideFlags: 0
@@ -13101,7 +13101,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &8662316717328972214
 GameObject:
   m_ObjectHideFlags: 0
@@ -13234,7 +13234,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &8744890442166324626
 GameObject:
   m_ObjectHideFlags: 0
@@ -13633,7 +13633,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &8956857435766594763
 GameObject:
   m_ObjectHideFlags: 0
@@ -13766,7 +13766,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 0
 --- !u!1 &8967985226198258780
 GameObject:
   m_ObjectHideFlags: 0
@@ -14680,7 +14680,7 @@ PrefabInstance:
     - target: {fileID: 7146792709344886198, guid: 7af55c00e1980d24cac179236a8f37b4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.35
+      value: 1.36
       objectReference: {fileID: 0}
     - target: {fileID: 7146792709344886198, guid: 7af55c00e1980d24cac179236a8f37b4,
         type: 3}
@@ -14722,11 +14722,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7450241055927760349, guid: 7af55c00e1980d24cac179236a8f37b4,
-        type: 3}
-      propertyPath: m_Interpolate
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14746,6 +14741,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6866511078342169816}
     m_Modifications:
+    - target: {fileID: 186356757433469123, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 186356757433469123, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 186356757433469123, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425718540743650556, guid: 29188ab157119a44b83e7e99ffe91b5a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14796,10 +14806,280 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 915986058918200160, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 915986058918200160, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 915986058918200160, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271573530549257278, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271573530549257278, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271573530549257278, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290299162642320418, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290299162642320418, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290299162642320418, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503246579563334374, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503246579563334374, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503246579563334374, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590147699858311267, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590147699858311267, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590147699858311267, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870186442564874316, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870186442564874316, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870186442564874316, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551111984954591346, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551111984954591346, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551111984954591346, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446516367806204870, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446516367806204870, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446516367806204870, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3841872091601417864, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3841872091601417864, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3841872091601417864, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389473400429993122, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389473400429993122, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389473400429993122, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496360341669293329, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496360341669293329, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496360341669293329, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556370495120597578, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556370495120597578, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556370495120597578, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5691175360022981974, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5691175360022981974, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5691175360022981974, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6278082282271187277, guid: 29188ab157119a44b83e7e99ffe91b5a,
         type: 3}
       propertyPath: m_Name
       value: Stage
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582498612689199049, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582498612689199049, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582498612689199049, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833223994748894415, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833223994748894415, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833223994748894415, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029456692748664883, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029456692748664883, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029456692748664883, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746034206780208480, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746034206780208480, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746034206780208480, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8862169269187910600, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8862169269187910600, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8862169269187910600, guid: 29188ab157119a44b83e7e99ffe91b5a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

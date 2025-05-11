@@ -15,11 +15,11 @@ MonoBehaviour:
   Data:
     MovementData:
       ForwardSpeed: 12
-      SidewaySpeed: 3
+      SidewaySpeed: 4.8
     MeshData:
       ScaleCounter: 1.2
     ForceData:
       ForceParams:
         x: 0
-        y: 3.6
-        z: 2.4
+        y: 4.2
+        z: 0.12
